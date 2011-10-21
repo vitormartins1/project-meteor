@@ -7,7 +7,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
       <Time>2011-10-12T15:01:08-03:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
       <Time>2011-10-12T15:04:30-03:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
       <Time>2011-10-17T14:40:12-02:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -232,7 +232,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -241,7 +241,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -250,7 +250,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -259,7 +259,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -268,7 +268,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -277,7 +277,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -286,7 +286,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -295,7 +295,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -304,7 +304,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -313,7 +313,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -322,7 +322,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -331,7 +331,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -340,7 +340,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Star.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Star.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -349,7 +349,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -358,7 +358,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -367,7 +367,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
       <Time>2011-10-12T15:01:10-03:00</Time>
     </Item>
     <Item>
@@ -376,7 +376,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\cannonMissile.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\cannonMissile.xnb</Output>
       <Time>2011-10-12T15:01:24-03:00</Time>
     </Item>
     <Item>
@@ -385,7 +385,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\HealthBar2.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\HealthBar2.xnb</Output>
       <Time>2011-10-19T20:09:38-02:00</Time>
     </Item>
     <Item>
@@ -394,7 +394,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\HealthBar_thumb.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\HealthBar_thumb.xnb</Output>
       <Time>2011-10-19T20:09:14-02:00</Time>
     </Item>
     <Item>
@@ -403,7 +403,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Meteorito.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Meteorito.xnb</Output>
       <Time>2011-10-12T15:01:24-03:00</Time>
     </Item>
     <Item>
@@ -412,7 +412,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Mother.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Mother.xnb</Output>
       <Time>2011-10-18T13:55:12-02:00</Time>
     </Item>
     <Item>
@@ -421,7 +421,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\shipCannon.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\shipCannon.xnb</Output>
       <Time>2011-10-16T15:57:44-02:00</Time>
     </Item>
     <Item>
@@ -430,7 +430,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\meteoro_marron.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\meteoro_marron.xnb</Output>
       <Time>2011-10-12T15:01:24-03:00</Time>
     </Item>
     <Item>
@@ -439,7 +439,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\meteoro_teste.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\meteoro_teste.xnb</Output>
       <Time>2011-10-19T22:55:22-02:00</Time>
     </Item>
     <Item>
@@ -448,7 +448,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\insgrocha.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\insgrocha.xnb</Output>
       <Time>2011-10-12T15:01:24-03:00</Time>
     </Item>
     <Item>
@@ -457,7 +457,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\insignacoracao.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\insignacoracao.xnb</Output>
       <Time>2011-10-12T21:05:02-03:00</Time>
     </Item>
     <Item>
@@ -466,7 +466,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\1.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\1.xnb</Output>
       <Time>2011-10-12T15:01:24-03:00</Time>
     </Item>
     <Item>
@@ -475,7 +475,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Mother_2.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Mother_2.xnb</Output>
       <Time>2011-10-18T13:57:50-02:00</Time>
     </Item>
     <Item>
@@ -484,7 +484,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Tiro.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Tiro.xnb</Output>
       <Time>2011-10-12T17:37:20-03:00</Time>
     </Item>
     <Item>
@@ -493,8 +493,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\background.xnb</Output>
-      <Time>2011-10-12T15:25:18-03:00</Time>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\background.xnb</Output>
+      <Time>2011-10-21T21:32:32.3470075-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Mother_3.png</Source>
+      <Name>Sprites\Mother_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Mother_3.xnb</Output>
+      <Time>2011-10-21T21:32:32.3590082-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\StarShip_Filho.png</Source>
@@ -502,17 +511,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\StarShip_Filho.xnb</Output>
-      <Time>2011-10-19T11:38:32-02:00</Time>
-    </Item>
-    <Item>
-      <Source>Sprites\StarShip.png</Source>
-      <Name>Sprites\StarShip</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\StarShip.xnb</Output>
-      <Time>2011-10-19T11:54:54-02:00</Time>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\StarShip_Filho.xnb</Output>
+      <Time>2011-10-21T21:32:32.3660086-02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Debug.spritefont</Source>
@@ -520,7 +520,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Fonts\Debug.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Fonts\Debug.xnb</Output>
       <Time>2011-10-12T15:01:24-03:00</Time>
     </Item>
     <Item>
@@ -529,7 +529,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Fonts\HUD.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Fonts\HUD.xnb</Output>
       <Time>2011-10-13T12:19:34-03:00</Time>
     </Item>
     <Item>
@@ -538,17 +538,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Fonts\Score.xnb</Output>
+      <Output>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Fonts\Score.xnb</Output>
       <Time>2011-10-13T12:20:26-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sprites\Mother_3.png</Source>
-      <Name>Sprites\Mother_3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\Sprites\Mother_3.xnb</Output>
-      <Time>2011-10-21T14:25:54-02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -556,47 +547,47 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTestContent\</RootDirectory>
-      <LoggerRootDirectory>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\ProjectMercury.dll</Key>
+        <Key>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\ProjectMercury.dll</Key>
         <Value>2011-10-12T15:01:08-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTest\ProjectMercury.ContentPipeline.dll</Key>
+        <Key>C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTest\ProjectMercury.ContentPipeline.dll</Key>
         <Value>2011-10-12T15:01:08-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T11:41:18-03:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T11:41:18-03:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T11:41:18-03:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T11:41:18-03:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T11:41:18-03:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T11:41:18-03:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2010-12-28T13:53:47.8219302-02:00</Value>
+        <Value>2011-06-23T16:31:50.682267-03:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

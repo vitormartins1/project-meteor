@@ -53,9 +53,8 @@ Content\Sprites\1.xnb
 Content\Sprites\Mother_2.xnb
 Content\Sprites\Tiro.xnb
 Content\Sprites\background.xnb
+Content\Sprites\Mother_3.xnb
 Content\Sprites\StarShip_Filho.xnb
-Content\Sprites\StarShip.xnb
 Content\Fonts\Debug.xnb
 Content\Fonts\HUD.xnb
 Content\Fonts\Score.xnb
-Content\Sprites\Mother_3.xnb
