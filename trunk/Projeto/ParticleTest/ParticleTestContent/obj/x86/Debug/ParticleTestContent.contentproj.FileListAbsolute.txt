@@ -11,3 +11,4 @@ E:\projeto-meteors\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\Resolv
 G:\projeto-meteors\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 F:\projeto-meteors\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 F:\projetopacocation_meteors\projeto-meteors\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Vynicius\Desktop\project-meteor\Projeto\ParticleTest\ParticleTestContent\obj\x86\Debug\ResolveAssemblyReference.cache

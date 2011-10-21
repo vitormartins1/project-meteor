@@ -247,8 +247,8 @@ namespace ParticleTest
 
             meteoros = new Meteor(Content.Load<Texture2D>("Sprites\\meteoro_teste"));
 
-            NaveFilho_1 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip"), viewportRect.Width / 2);
-            NaveFilho_2 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip"), viewportRect.Width/2 - 100);
+            NaveFilho_1 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2);
+            NaveFilho_2 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2 - 100);
 
             shipCannon = new shipCannon(Content.Load<Texture2D>("Sprites\\shipCannon"));
             shipCannon2 = new shipCannon(Content.Load<Texture2D>("Sprites\\shipCannon"));
