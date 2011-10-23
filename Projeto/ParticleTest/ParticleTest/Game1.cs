@@ -37,6 +37,8 @@ namespace ParticleTest
         static public int Score = 0;        
         #endregion
 
+        Camera2d Camera;
+
         static public NaveFilho NaveFilho_1;
 
         static public NaveFilho NaveFilho_2;
@@ -102,6 +104,9 @@ namespace ParticleTest
         /// </summary>
         static public Rectangle viewportRect;
         #endregion
+
+        
+
 
         #region bool
 
@@ -245,10 +250,13 @@ namespace ParticleTest
             myEffect.Initialise();
             myRenderer.LoadContent(Content);
 
+            Camera = new Camera2d();
+            Camera.Pos = new Vector2(400.0f, 400.0f);
+
             meteoros = new Meteor(Content.Load<Texture2D>("Sprites\\meteoro_teste"));
 
             NaveFilho_1 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2);
-            NaveFilho_2 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2 - 100);
+            NaveFilho_2 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width/2 - 100);
 
             shipCannon = new shipCannon(Content.Load<Texture2D>("Sprites\\shipCannon"));
             shipCannon2 = new shipCannon(Content.Load<Texture2D>("Sprites\\shipCannon"));
@@ -292,6 +300,20 @@ namespace ParticleTest
             KeyboardState keyboradState = Keyboard.GetState();
 
             GameTime += gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (keyboradState.IsKeyDown(Keys.W))
+                Camera.Zoom += 0.1f;
+
+            if (keyboradState.IsKeyDown(Keys.S))
+                Camera.Zoom -= 0.1f;
+
+            if (keyboradState.IsKeyDown(Keys.D))
+                Camera.Move(new Vector2(10, 0));
+
+            if (keyboradState.IsKeyDown(Keys.A))
+                Camera.Move(new Vector2(-10, 0));
+
+
 
             if (keyboradState.IsKeyDown(Keys.Escape))
             {
@@ -367,7 +389,13 @@ namespace ParticleTest
         #region Draw
         protected override void Draw(GameTime gameTime)
         {
-            spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
+            spriteBatch.Begin(SpriteSortMode.FrontToBack,
+                                     BlendState.AlphaBlend,
+                                     null,
+                                     null,
+                                     null,
+                                     null,
+                                     Camera.get_transformation(GraphicsDevice));
 
             // Desenahando nossa Nave mar
             naveMae.Draw(spriteBatch);
@@ -421,6 +449,7 @@ namespace ParticleTest
             {
                 //shipCannon2.Draw(spriteBatch);
             }
+            
 
             #region Movimento do Fundo
             spriteBatch.Draw(Fundo, new Rectangle((int)fundopos.X, (int)fundopos.Y, (int)tamanhoTela.X, (int)tamanhoTela.Y), null, Color.White, 0, Vector2.Zero, SpriteEffects.None, 0f);
