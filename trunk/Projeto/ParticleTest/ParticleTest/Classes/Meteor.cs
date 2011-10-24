@@ -144,7 +144,7 @@ namespace ParticleTest
                     }
                 }
 
-                if (Game1.nivel == 2 && Game1.NaveFilho_2.Rect.Intersects(this.Rect) && this.alive == true && Game1.NaveFilho_1.alive)
+                if (Game1.IntersectPixels(Game1.NaveFilho_2.Rect, Game1.NaveFilho_2.Db, this.Rect, meteorTextureDB) && this.alive == true && Game1.NaveFilho_2.alive)
                 {
                     try
                     {

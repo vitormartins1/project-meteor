@@ -349,6 +349,7 @@ namespace ParticleTest
             if (nivel >= 2)
             {
                 shipCannon2.Update();
+                shipCannon2.rotation = shipCannon.rotation;
             }
 
             shipCannon.Update();
@@ -364,10 +365,13 @@ namespace ParticleTest
            
             NaveFilho_1.Update(gameTime);
 
-            if (nivel == 2 && NaveFilho_1.alive)
+            if (nivel == 2)
             {
-                NaveFilho_2.Update(gameTime);
+                 NaveFilho_2.Update(gameTime);
+                                                    
             }
+
+            
 
             elementoBen.Update2(gameTime);
             
@@ -404,7 +408,10 @@ namespace ParticleTest
             // Desenhando nosso elemento benefico
             elementoBen.Draw(spriteBatch);
             // Desenhando nossa Nave filho
-            NaveFilho_1.Draw(spriteBatch);               
+            NaveFilho_1.Draw(spriteBatch);
+            if(nivel == 2)
+            // Desenhando nossa Nave filho2
+            NaveFilho_2.Draw(spriteBatch);    
             // Desenhando nossos meteoros
             meteoros.Draw(spriteBatch);
             // Desenhando nosso primeiro canhao
@@ -445,10 +452,7 @@ namespace ParticleTest
             // Desenhando nosso primeiro canhao
             shipCannon.Draw(spriteBatch);
             // Desenhando nosso segundo canhao
-            if (nivel == 2)
-            {
-                //shipCannon2.Draw(spriteBatch);
-            }
+           
             
 
             #region Movimento do Fundo
