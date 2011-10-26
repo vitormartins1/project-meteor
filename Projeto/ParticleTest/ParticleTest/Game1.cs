@@ -34,7 +34,7 @@ namespace ParticleTest
         /// <summary>
         /// Marca os pontos do jogo
         /// </summary>
-        static public int Score = 0;        
+        static public int Score = 0;
         #endregion
 
         Camera2d Camera;
@@ -43,8 +43,8 @@ namespace ParticleTest
 
         static public NaveFilho NaveFilho_2;
 
-        #region float        
-               
+        #region float
+
         /// <summary>
         /// Velocidade da tela de fundo
         /// </summary>
@@ -60,7 +60,7 @@ namespace ParticleTest
         /// Guarda o tempo de jogo
         /// </summary>
         double time = 0;
-       
+
         #endregion
 
         #region GameObject
@@ -72,7 +72,7 @@ namespace ParticleTest
         /// Misseis do canhao 02
         /// </summary>
         static public List<GameObject> cannonMissiles2 = new List<GameObject>();
-        
+
         /// <summary>
         /// Canhao 02
         /// </summary>
@@ -98,20 +98,20 @@ namespace ParticleTest
         public Vector2 tamanhoTela;
         #endregion
 
-        #region Rectangle 
+        #region Rectangle
         /// <summary>
         /// Projecoes da tela de jogo
         /// </summary>
         static public Rectangle viewportRect;
         #endregion
 
-        
+
 
 
         #region bool
 
         bool mudarNivel = true;
-      
+
 
         #endregion
 
@@ -119,7 +119,7 @@ namespace ParticleTest
         /// <summary>
         /// Array de cores da nave
         /// </summary>
-        static public Color[] naveTextureDB;       
+        static public Color[] naveTextureDB;
         #endregion
 
         #region Meteoros
@@ -215,10 +215,10 @@ namespace ParticleTest
 
             graphics.PreferredBackBufferWidth = 800;
             graphics.PreferredBackBufferHeight = 800;
-            
+
         }
         #endregion
-        
+
         #region Initialize
         protected override void Initialize()
         {
@@ -234,7 +234,9 @@ namespace ParticleTest
             tamanhoTela = new Vector2(graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height);
             base.Initialize();
 
-            
+
+
+
         }
         #endregion
 
@@ -255,8 +257,11 @@ namespace ParticleTest
 
             meteoros = new Meteor(Content.Load<Texture2D>("Sprites\\meteoro_teste"));
 
-            NaveFilho_1 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2);
-            NaveFilho_2 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width/2 - 100);
+            NaveFilho_1 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2);//, 1);
+
+            NaveFilho_2 = new NaveFilho(Content.Load<Texture2D>("Sprites\\StarShip_Filho"), viewportRect.Width / 2 + 200);//, 2);
+
+            //NaveFilho.Velocidade *= -1;
 
             shipCannon = new shipCannon(Content.Load<Texture2D>("Sprites\\shipCannon"));
             shipCannon2 = new shipCannon(Content.Load<Texture2D>("Sprites\\shipCannon"));
@@ -268,7 +273,7 @@ namespace ParticleTest
 
             Debug = Content.Load<SpriteFont>("Fonts\\Score");
 
-            Fundo = Content.Load<Texture2D>("Sprites\\background");           
+            Fundo = Content.Load<Texture2D>("Sprites\\background");
 
             elementoBen = new elementoBenefico(Content.Load<Texture2D>("Sprites\\insgrocha"), Content.Load<Texture2D>("Sprites\\insignacoracao"));
 
@@ -280,13 +285,13 @@ namespace ParticleTest
 
             shipCannon.center = new Vector2(shipCannon.sprite.Width / 2, shipCannon.sprite.Height / 2 - 30);
 
-          
+
         }
         #endregion
-       
+
         #region Update
         protected override void Update(GameTime gameTime)
-        { 
+        {
             vidaNave = new BarraEnergia(naveMae.vidaNave, Content.Load<Texture2D>("Sprites\\HealthBar2"),
                 new Vector2(255, 785));
 
@@ -296,7 +301,7 @@ namespace ParticleTest
 
             // Update each block
             naveMae.hitNave = false;
-            
+
             KeyboardState keyboradState = Keyboard.GetState();
 
             GameTime += gameTime.ElapsedGameTime.TotalSeconds;
@@ -322,7 +327,7 @@ namespace ParticleTest
 
             if (Score == 20 && mudarNivel == true)
             {
-                meteoros.timeProbability -= 0.05f;                
+                meteoros.timeProbability -= 0.05f;
                 nivel = 2;
                 mudarNivel = false;
             }
@@ -352,29 +357,34 @@ namespace ParticleTest
                 shipCannon2.rotation = shipCannon.rotation;
             }
 
+
+
             shipCannon.Update();
-       
+
             // Chamando a funcao que atualiza os misseis
             UpdadeCannonMissiles();
 
             // Chamando a funcao que atualiza os meteoros
             meteoros.Updatmeteor(gameTime);
-           
+
             // Chamando o update da nave mae
             naveMae.Update(gameTime);
-           
+
+            //if (NaveFilho_1.Rect.Intersects(NaveFilho_2.Rect))
+            //{
+            //    NaveFilho_1.Velocidade *= -1;
+            //    NaveFilho_2.Velocidade *= -1;
+
+            //}
+
             NaveFilho_1.Update(gameTime);
 
-            if (nivel == 2)
-            {
-                 NaveFilho_2.Update(gameTime);
-                                                    
-            }
+            NaveFilho_2.Update(gameTime);
 
-            
+
 
             elementoBen.Update2(gameTime);
-            
+
             MouseState ms = Mouse.GetState();
             // Check if mouse left button was presed
             if (ms.LeftButton == ButtonState.Pressed)
@@ -385,7 +395,7 @@ namespace ParticleTest
             // "Deltatime" ie, time since last update call
             float SecondsPassed = (float)gameTime.ElapsedGameTime.TotalSeconds;
             myEffect.Update(SecondsPassed);
-                        
+
             base.Update(gameTime);
         }
         #endregion
@@ -405,13 +415,15 @@ namespace ParticleTest
             naveMae.Draw(spriteBatch);
             // Desenhando nossa barra de vida da Nave mae
             vidaNave.Draw(spriteBatch);
+            NaveFilho_2.Draw(spriteBatch);
             // Desenhando nosso elemento benefico
             elementoBen.Draw(spriteBatch);
             // Desenhando nossa Nave filho
             NaveFilho_1.Draw(spriteBatch);
-            if(nivel == 2)
+
             // Desenhando nossa Nave filho2
-            NaveFilho_2.Draw(spriteBatch);    
+
+
             // Desenhando nossos meteoros
             meteoros.Draw(spriteBatch);
             // Desenhando nosso primeiro canhao
@@ -422,13 +434,13 @@ namespace ParticleTest
                 shipCannon2.Draw(spriteBatch);
             }
             // Desenhando a nave filho
-            if (nivel == 2)
-                NaveFilho_2.Draw(spriteBatch);
 
-            spriteBatch.DrawString(Debug, "Score : " + Score, new Vector2(0, 0), Color.White, 0, Vector2.Zero, 1f,
+
+
+            spriteBatch.DrawString(Debug, "Score : " + NaveFilho_1.VarRandom, new Vector2(0, 0), Color.White, 0, Vector2.Zero, 1f,
                 SpriteEffects.None, 0.1f);
 
-            spriteBatch.DrawString(HUD, "Nave : " + naveMae.vidaNave, new Vector2(0, 20), Color.White,
+            spriteBatch.DrawString(HUD, "Nave : " + NaveFilho_2.VarRandom, new Vector2(0, 20), Color.White,
                 0, Vector2.Zero, 1f, SpriteEffects.None, 0.1f);
 
             //Desenhando os misseis
@@ -442,7 +454,7 @@ namespace ParticleTest
             }
 
             foreach (GameObject Shoot2 in cannonMissiles2)
-            {               
+            {
                 if (Shoot2.alive)
                 {
                     spriteBatch.Draw(Shoot2.sprite, Shoot2.position, null, Color.White,
@@ -452,8 +464,8 @@ namespace ParticleTest
             // Desenhando nosso primeiro canhao
             shipCannon.Draw(spriteBatch);
             // Desenhando nosso segundo canhao
-           
-            
+
+
 
             #region Movimento do Fundo
             spriteBatch.Draw(Fundo, new Rectangle((int)fundopos.X, (int)fundopos.Y, (int)tamanhoTela.X, (int)tamanhoTela.Y), null, Color.White, 0, Vector2.Zero, SpriteEffects.None, 0f);
@@ -541,8 +553,8 @@ namespace ParticleTest
             return;
         }//end firemissiles
 
-        #endregion          
-                
+        #endregion
+
         #region IntersectPixels
         static public bool IntersectPixels(Rectangle rectangleA, Color[] dataA,
                                     Rectangle rectangleB, Color[] dataB)

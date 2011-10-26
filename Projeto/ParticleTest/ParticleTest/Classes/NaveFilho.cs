@@ -9,119 +9,94 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+//
+
 namespace ParticleTest
 {
-   public  class NaveFilho : GameObject
+    public class NaveFilho : GameObject
     {
         public int life;
         public int VarRandom;
-        Random random = new Random();
+        Random random;
         public double Navetimer;
         public double TimeMovimento;
         public Color[] Db;
         public Color currentColor;
         public bool boolVermelhidao;
+        public float Velocidade;
+        static public int direcao;
+
 
         public NaveFilho(Texture2D loadedTexture, int Px)
             : base(loadedTexture)
         {
-            
+
+            random = new Random();
             sprite = loadedTexture;
-            position = new Vector2(Game1.viewportRect.Width / 2, Game1.viewportRect.Height / 2);
+            position = new Vector2(Px, Game1.viewportRect.Height / 2);
             rotation = 0.0f;
             center = new Vector2(sprite.Width / 2, sprite.Height / 2);
             Db = new Color[sprite.Width * sprite.Height];
-            sprite.GetData(Db);            
+            sprite.GetData(Db);
             alive = true;
             life = 5;
             TimeMovimento = 0;
-            VarRandom = random.Next(1, 8);
+            VarRandom = random.Next(1, 4);
             currentColor = Color.White;
             boolVermelhidao = false;
+            Velocidade = 5;
+            direcao = 1;
         }
 
         public void Update(GameTime gameTime)
         {
-            if (life <= 0)
-                alive = false;
+            position.X += Velocidade * direcao;
 
-            if (alive == true)
+            Rect = new Rectangle((int)position.X, (int)position.Y, sprite.Width, sprite.Height);
+
+
+
+
+            #region Movimentacao
+            //position.X = MathHelper.Clamp((float)position.X, 0, viewportRect.Width - sprite.Width);
+
+
+            if (position.X >= Game1.viewportRect.Width - sprite.Width)
             {
-                #region Movimentacao
-                position.X = MathHelper.Clamp((float)position.X, sprite.Width, Game1.viewportRect.Width - sprite.Width);
-
-                if (VarRandom == 1 || VarRandom == 2 || VarRandom == 3)
-                {
-                    TimeMovimento += gameTime.ElapsedGameTime.TotalSeconds;
-
-                    if (TimeMovimento < 0.5)
-                        GoRight();
-
-                    else
-                    {
-                        VarRandom = random.Next(1, 8);
-                        TimeMovimento = 0;
-                    }
-
-                }
-
-
-
-
-                if (VarRandom == 4 || VarRandom == 5 || VarRandom == 6)
-                {
-                    TimeMovimento += gameTime.ElapsedGameTime.TotalSeconds;
-
-                    if (TimeMovimento < 0.5)
-                        GoLeft();
-
-                    else
-                    {
-
-                        VarRandom = random.Next(1, 8);
-                        TimeMovimento = 0;
-                    }
-                }
-
-
-
-                if (VarRandom == 7 || VarRandom == 8)
-                {
-                    TimeMovimento += gameTime.ElapsedGameTime.TotalSeconds;
-
-                    if (TimeMovimento < 0.1)
-                        Stop();
-
-                    else
-                    {
-
-                        VarRandom = random.Next(1, 8);
-                        TimeMovimento = 0;
-                    }
-                }
-
-
-                #endregion
-
-                if (boolVermelhidao)
-                {
-
-                    Vermelhidao(gameTime);
-                }
-
-                Rect = new Rectangle((int)position.X, (int)position.Y, sprite.Width, sprite.Height);
+                position.X = Game1.viewportRect.Width - sprite.Width - 1;
+                NaveFilho.direcao *= -1;
             }
-            
+
+            if (position.X <= 0)
+            {
+                position.X = +1;
+                NaveFilho.direcao *= -1;
+            }
+
+
+
+
+
+            #endregion
+
+            if (boolVermelhidao)
+            {
+
+                Vermelhidao(gameTime);
+            }
+
+
         }
+
+
 
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            if (alive == true)
-            {
-                spriteBatch.Draw(sprite, position, null, currentColor,
-                            rotation, Vector2.Zero, 1.0f, SpriteEffects.None, 0.1f);
-            }
+
+            spriteBatch.Draw(sprite, position, null, currentColor,
+                        rotation, Vector2.Zero, 1.0f, SpriteEffects.None, 0.1f);
+
 
         }
 
@@ -146,28 +121,6 @@ namespace ParticleTest
 
 
         }
-
-        public void GoRight()
-        {
-
-            this.position.X += 5;
-
-        }
-
-        public void GoLeft()
-        {
-
-            this.position.X -= 5;
-
-        }
-
-        public void Stop()
-        {
-
-            this.position.X += 0;
-
-        }
-
 
 
     }
