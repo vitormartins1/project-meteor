@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace ParticleTest
 {
-    public class GameObject 
+    public class GameObject
     {
         public Texture2D sprite;
         public Vector2 position;
